@@ -13,7 +13,7 @@ function card1(list, tipo) {
                         <h5 class="text-secondary">"${list[i][2]}"</h5>
                         <div class="d-flex flex-row text-center justify-content-center text-light">
                             <h5>XP</h5>
-                            <progress value="${list[i][3]}" max="100" class="m-2">${list[i][3]}%</progress>
+                            <progress value="${list[i][4]}" max="100" class="m-2">${list[i][4]}%</progress>
                         </div>
                     </div>
                 `
