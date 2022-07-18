@@ -12,6 +12,7 @@
 lista = [
 
     //["lAcsen_", "Mod e amigo", "Espero poder divertir e melhorar o dia de todos os que tirarem um pouco do seu tempo para participar desse sonho.", 0, 1]
+    ["WeirdCory", "Mod e amigo", "Sábio é aquele que conhece os limites da própria ignorância. ~Sócrates", 0, 1],
     ["Zegfy", "Criador da comunidade", "Espero poder divertir e melhorar o dia de todos os que tirarem um pouco do seu tempo para participar desse sonho.", 2, 1],
 
 ];
