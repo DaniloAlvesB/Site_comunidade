@@ -17,7 +17,7 @@
 @keyframes animacaoRev{
 
     0% {margin-top: 3%}
-    50% {margin-top: 6%}
+    50% {margin-top: 5%}
     100% {margin-top: 3%}
 
 }
@@ -32,6 +32,16 @@
 
 }
 
+@keyframes primordial{
+
+    0% {color: rgb(255, 238, 0);}
+    25% {color: rgb(255, 153, 0);}
+    50% {color: rgb(217, 255, 0);}
+    75% {color: rgb(255, 153, 0);}
+    100% {color: rgb(255, 238, 0);}
+
+}
+
 @keyframes olhostwt{
 
     0% {margin-left: -30px; transform: scale(1, 1)}
@@ -40,6 +50,12 @@
     75% {margin-left: -30px; transform: scale(1, 1)}
     100% {margin-left: -30px; transform: scale(1, 1)}
 
+}
+
+.primordial{
+    animation-name: primordial;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .title{
@@ -65,7 +81,7 @@
 
 .container2{
     animation-name: animacao2;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 

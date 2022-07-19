@@ -36,11 +36,18 @@ function card2(list, tipo, txt) {
         if(list[i][3] == tipo || list[i][3] == 2){
             if(list[i][0].includes(txt)){
                 cont++
+
+                //Primordial
+                let primordial = "text-light";
+                if(list[i][1] == "Primordial"){
+                    primordial = " primordial";
+                }
+
                 itens.innerHTML += `
                     <div class="bloco1 text-center bg-dark pt-3">
                         <h1 style="color: rgb(236, 0, 236)">${list[i][0]}</h1>
                         <hr size="1">
-                        <h4 class="text-light">${list[i][1]}</h4>
+                        <h4 class="${primordial}">${list[i][1]}</h4>
                         <hr size="1">
                         <h5 class="text-secondary">"${list[i][2]}"</h5>
                         <div class="d-flex flex-row text-center justify-content-center text-light">
