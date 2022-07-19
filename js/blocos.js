@@ -32,3 +32,26 @@ function perfil1(lista, posicao){
 
 
 }
+
+function fixado(list, nome) {
+    if(list.length > 0){
+        for(var i = 0; i < list.length; i++) {
+            if(list[i][0] == nome){
+                fixed.innerHTML += `
+                    <div class="bloco1 text-center bg-realy-dark pt-3">
+                        <h1 class="colorify-text">${list[i][0]}</h1>
+                        <hr size="1">
+                        <h4 class="text-light">${list[i][1]}</h4>
+                        <hr size="1">
+                        <h5 class="text-secondary">"${list[i][2]}"</h5>
+                        <div class="d-flex flex-row text-center justify-content-center text-light">
+                            <h5>XP</h5>
+                            <progress value="${list[i][4]}" max="100" class="m-2">${list[i][4]}%</progress>
+                        </div>
+                    </div>
+                `
+                break;
+            }
+        }
+    }
+}
