@@ -44,11 +44,18 @@ function fixado(list, nome) {
     if(list.length > 0){
         for(var i = 0; i < list.length; i++) {
             if(list[i][0] == nome){
+
+                //Primordial
+                let primordial = "text-light";
+                if(list[i][1] == "Primordial"){
+                    primordial = " primordial";
+                }
+
                 fixed.innerHTML += `
                     <div class="bloco1 text-center bg-realy-dark pt-3">
                         <h1 class="colorify-text">${list[i][0]}</h1>
                         <hr size="1">
-                        <h4 class="text-light">${list[i][1]}</h4>
+                        <h4 class="${primordial}">${list[i][1]}</h4>
                         <hr size="1">
                         <h5 class="text-secondary">"${list[i][2]}"</h5>
                         <div class="d-flex flex-row text-center justify-content-center text-light">
