@@ -11,11 +11,20 @@ function card1(list, tipo) {
                     primordial = " primordial";
                 }
 
+                //Raridade
+                let raridade = 0;
+                for(var a = 0; a < list.length; a++) {
+                    if(list[i][1] == list[a][1]){
+                        raridade++
+                    }
+                }
+                raridade = raridade*100/list.length;
+
                 itens.innerHTML += `
                     <div class="bloco1 text-center bg-dark pt-3">
                         <h1 style="color: rgb(236, 0, 236)">${list[i][0]}</h1>
                         <hr size="1">
-                        <h4 class="${primordial}">${list[i][1]}</h4>
+                        <h4 class="${primordial}">${list[i][1]} - %${raridade}</h4>
                         <hr size="1">
                         <h5 class="text-secondary">"${list[i][2]}"</h5>
                         <div class="d-flex flex-row text-center justify-content-center text-light">
