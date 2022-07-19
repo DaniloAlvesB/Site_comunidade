@@ -23,5 +23,42 @@
 
     card1(lista, 1);
 
+    function pesquisar(){
+    let txt = document.getElementById("txtBusca").value;
+    console.log("Chamada a função. Variável txt = " + txt)
+    card2(lista, 1, txt)
+}
+
+function card2(list, tipo, txt) {
+    itens.innerHTML = '';
+    let cont = 0;
+    for(var i = 0; i < list.length; i++) {
+        if(list[i][3] == tipo || list[i][3] == 2){
+            if(list[i][0].includes(txt)){
+                cont++
+                itens.innerHTML += `
+                    <div class="bloco1 text-center bg-dark pt-3">
+                        <h1 style="color: rgb(236, 0, 236)">${list[i][0]}</h1>
+                        <hr size="1">
+                        <h4 class="text-light">${list[i][1]}</h4>
+                        <hr size="1">
+                        <h5 class="text-secondary">"${list[i][2]}"</h5>
+                        <div class="d-flex flex-row text-center justify-content-center text-light">
+                            <h5>XP</h5>
+                            <progress value="${list[i][4]}" max="100" class="m-2">${list[i][4]}%</progress>
+                        </div>
+                    </div>
+                `
+            }
+        }
+    }
+    if(cont == 0){
+
+        itens.innerHTML = `<h2>Não foi encontrado ninguém com nome "${txt}"!</h2>`
+
+    }
+
+}
+
 </script>
 </html>
