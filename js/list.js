@@ -12,6 +12,7 @@
 lista = [
 
     //["lAcsen_", "Mod e amigo", "Espero poder divertir e melhorar o dia de todos os que tirarem um pouco do seu tempo para participar desse sonho.", 0, 1]
+    ["agladiun", "Primordial", "Since every mans dies, it is better to die with distinction than live to live long.", 0, 1],
     ["Hotmaik001", "Primordial", "Stop beating on my heart like a bass drum.", 0, 1],
     ["bigpandaria", "Primordial", "É como diz um velho conhecido ditado: Quem ri por último come mais chocolate... O que tem mais saliva ri melhor... O que ri comendo chocolate é o último que come... É quase isso aí.", 0, 1],
     ["giulialaiza", "Primordial", "Aquilo que se faz por amor está sempre além do bem e do mal. ~Friedrich Nietzsche", 0, 1],
