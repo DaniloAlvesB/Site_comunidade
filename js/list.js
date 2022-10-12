@@ -12,6 +12,7 @@
 lista = [
 
     //["lAcsen_", "Mod e amigo", "Espero poder divertir e melhorar o dia de todos os que tirarem um pouco do seu tempo para participar desse sonho.", 0, 1]
+    ["0kar1m", "Primordial", "Sou homem sexual.", 0, 50],
     ["nic0laspegadinha", "Primordial", "Esse canal será meu, tudo é um plano de longo prazo.", 0, 1],
     ["agladiun", "Primordial", "Since every mans dies, it is better to die with distinction than live to live long.", 0, 1],
     ["Hotmaik001", "Primordial", "Stop beating on my heart like a bass drum.", 0, 1],
