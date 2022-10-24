@@ -11,7 +11,7 @@
 
 lista = [
 
-    ["Sakboy", "Primordial", "Uma lamina hesitante não é capaz de um corte limpo.", 0, 10]
+    ["Sakboy", "Primordial", "Uma lamina hesitante não é capaz de um corte limpo.", 0, 10],
     ["0kar1m", "Primordial", "Sou homem sexual.", 0, 50],
     ["nic0laspegadinha", "Primordial", "Esse canal será meu, tudo é um plano de longo prazo.", 0, 1],
     ["agladiun", "Primordial", "Since every mans dies, it is better to die with distinction than live to live long.", 0, 1],
